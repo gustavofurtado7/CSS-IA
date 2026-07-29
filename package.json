@@ -1,0 +1,15 @@
+{
+  "name": "css-ia-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gerador de HTML e CSS com IA usando Groq e backend Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
